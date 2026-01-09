@@ -1,7 +1,7 @@
 # ====================
 # PHP SPECIFIC
 # ====================
-vendor/              # Composer dependencies
+/vendor/              # Composer dependencies
 composer.lock        # Composer lock file
 *.log                # Log files
 error_log            # PHP error log
@@ -9,7 +9,7 @@ error_log            # PHP error log
 # ====================
 # NETBEANS SPECIFIC
 # ====================
-nbproject/           # NetBeans project configuration
+/nbproject/           # NetBeans project configuration
 build/               # NetBeans build directory
 dist/                # NetBeans distribution directory
 /nbproject/private/  # NetBeans private data 
