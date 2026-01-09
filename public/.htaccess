@@ -1,0 +1,18 @@
+<IfModule mod_rewrite.c>
+    <IfModule mod_negotiate.c>
+        Options -MultiViews -Indexes
+    </IfModule>
+
+    ReWriteEngine on
+    ReWriteCond %{HTTP:Authorization} .
+    ReWriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+    ReWriteCond %{REQUEST_FILENAME} !-d
+    ReWriteCond %{REQUEST_URI} (.+)/$
+    ReWriteRule ^ %1 [L,R=301]
+
+    ReWriteCond %{REQUEST_FILENAME} !-d
+    ReWriteCond %{REQUEST_FILENAME} !-f
+    ReWriteRule ^ index.php [L]
+
+</IfModule>

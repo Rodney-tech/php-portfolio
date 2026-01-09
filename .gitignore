@@ -1,0 +1,70 @@
+# ====================
+# PHP SPECIFIC
+# ====================
+vendor/              # Composer dependencies
+composer.lock        # Composer lock file
+*.log                # Log files
+error_log            # PHP error log
+
+# ====================
+# NETBEANS SPECIFIC
+# ====================
+nbproject/           # NetBeans project configuration
+build/               # NetBeans build directory
+dist/                # NetBeans distribution directory
+/nbproject/private/  # NetBeans private data 
+*.orig               # Backup files
+
+# ====================
+# YOUR CUSTOM IGNORES
+# ====================
+# Database configuration 
+/config/db.inc.php
+/config/config_db.xml
+
+# Config files 
+/config/config.php
+
+# Environment 
+/env/
+
+# Logs
+/logs/
+*.log
+
+# ====================
+# ENVIRONMENT / CONFIG
+# ====================
+.env                 # Environment variables
+.env.local           # Local environment
+.env.*.local         # Other local env files
+config.local.php     # Local configuration
+
+# ====================
+# RUNTIME & UPLOADS
+# ====================
+cache/               # Cache files
+sessions/            # Session files
+tmp/                 # Temporary files
+uploads/             # User uploads
+
+# ====================
+# DATABASE
+# ====================
+*.db                 # Database files
+*.sqlite             # SQLite databases
+
+# ====================
+# OPERATING SYSTEM
+# ====================
+.DS_Store            # macOS
+Thumbs.db            # Windows
+desktop.ini          # Windows
+
+# ====================
+# IDE/EDITOR (Extra)
+# ====================
+.vscode/             # VS Code
+.idea/               # PHPStorm
+*.swp                # Vim swap files
+*.swo                # Vim swap files
