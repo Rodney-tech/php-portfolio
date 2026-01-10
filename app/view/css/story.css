@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'Finger Paint';
+    src: url('../font/FingerPaint-Regular.ttf');
+}
+
+@keyframes fadeIn{
+    from {opacity:0}
+    to {opacity:1}
+}
+
+body {
+    background-image: url('../img/personal_web_story_bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    height: 100vh;
+}
+
+#right_header {
+    align-items: end;
+    animation: fadeIn 1s;
+}
+
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+a {
+    padding: 0 5px 5px 5px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition-duration: 0.7s;
+}
+
+a:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+#message_container {
+    width: 99vw;
+}
+
+article {
+    box-shadow: 0 0 3px black;
+    padding: 10px 20px 10px 20px;
+    width: 40%;
+    margin-left: 2.5%;
+}
+
+footer {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(94, 94, 94, 0.486);
+    margin-top: 30px;
+    bottom: 0%;
+    width: 99%;
+}
+
+#social_media {
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+footer> div> a {
+    transition-duration: 0.7s;
+}
+footer> div> a :hover {
+    background-color: white;
+}

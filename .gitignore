@@ -9,6 +9,7 @@ error_log            # PHP error log
 # ====================
 # NETBEANS SPECIFIC
 # ====================
+nbproject/private/private.xml
 nbproject/           # NetBeans project configuration
 build/               # NetBeans build directory
 dist/                # NetBeans distribution directory

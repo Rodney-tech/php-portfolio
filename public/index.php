@@ -1,17 +1,8 @@
 <?php 
 
-$url = $_SERVER['REQUEST_URI'];
+require_once '../config/config.php';
 
-echo $url;
+$router = new Router(ROUTE_PATH);
 
-switch($url){
-    case '/':
-        echo 'home';
-        break;
-    case '/about':
-        echo 'about';
-        break;
-    default:
-        echo '404';
-        break;
-}
+$router->getURI();
+$router->getRoute();

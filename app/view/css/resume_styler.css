@@ -1,0 +1,105 @@
+body {
+    background-image: url('../img/personal_web_bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#back_home {
+    position: fixed;
+    bottom: 8px;
+    left: 680px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    padding: 5px 5px 5px 5px;
+}
+
+#back_home:hover {
+    color: rgb(36, 87, 45);
+}
+
+#right_header {
+    align-items: end;
+}
+
+#list_non {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    padding-left: 0;
+}
+
+#resume_nav, #story_nav, #message_nav {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+a {
+    padding: 0 5px 5px 5px;
+    text-decoration: none;
+    color: black;
+    transition-duration: 0.7s;
+}
+
+a:hover {
+    color: white;
+    background-color: rgba(0,0,0,0.4);
+}
+
+#resume {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0);
+    
+    
+}
+
+#resume_sections {
+    display: flex;
+    box-shadow: 0 0 3px black;
+    justify-content: center;
+    width: 900px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+#first_div {
+    width: 450px;
+}
+
+#second_div {
+    margin-top: 80px;
+    margin-left: 10px;
+    background-color: rgba(170, 171, 172, 0.26);
+    padding: 0 10px 0 10px;
+}
+
+
+h1, h2, h3, i {
+    color:rgb(72, 73, 73);
+}
+
+#resume_details {
+    border-top: solid 3px rgb(72, 73, 73);
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+th, td {
+    border: 1px solid rgb(175, 175, 175);
+    padding: 8px;
+    text-align: left;
+}
+
+#last_p {
+    padding-bottom: 16px;
+    margin-bottom: 0;
+    border-bottom: 3px solid rgb(180, 180, 180);
+}

@@ -48,7 +48,10 @@ class Router{
                 require_once $this->route_path . 'story.route.php';
                 break;
             case 'message':
-                require_once $this->route_path . 'message.route.php';
+                require_once $this->route_path . 'messages.route.php';
+                break;
+            case 'formhandler':
+                require_once $this->route_path . 'formhandler.route.php';
                 break;
             default:
                 require_once $this->route_path . '404.route.php';
@@ -61,6 +64,6 @@ class Router{
     }
     
     public function getRoute(){
-        $this->getRoute(); 
+        $this->requestRoute(); 
     }
 }

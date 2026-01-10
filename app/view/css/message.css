@@ -1,0 +1,123 @@
+body {
+    background-image: url('../img/personal_web_bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#back_home {
+    margin-top: 20px;
+    color: white;
+    background-color: rgb(0, 0, 0,0.5);
+    border-radius: 8px;
+    padding: 5px 5px 5px 5px;
+    transition-duration: 0.7s;
+}
+
+#back_home:hover {
+    color: black;
+    background-color: white;
+}
+
+#right_header {
+    align-items: end;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+a {
+    padding: 0 5px 5px 5px;
+    text-decoration: none;
+    color: black;
+    transition-duration: 0.7s;
+}
+
+a:hover {
+    color: white;
+    background-color: rgba(0,0,0,0.4);
+}
+
+#intro_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+#intro_cover {
+    background-image: url('../img/personal_web_bg_logo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 720px;
+    height: 450px;
+    display: flex;
+}
+
+#left_container {
+    width: 365px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+h1 {
+    margin-top: 60px;
+}
+
+#form_container {
+    width: 250px;
+    margin-left: 55px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 0 0 3px black;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid rgba(68, 68, 68, 0.719);
+    outline: none;
+    padding-left: 5px;
+}
+input:focus {
+    border-bottom: 1px solid rgba(68, 68, 68, 0.719);
+}
+
+textarea {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    padding-left: 3px;
+    width: 172px;
+    height: 60px;
+    border-radius: 5px;
+    border: 1px solid rgba(68, 68, 68, 0.719);
+    resize: none;
+}
+
+input, textarea {
+    color: rgb(0, 0, 0);
+    
+}
+
+button {
+    padding: 5px 15px 5px 15px;
+    border: none;
+    border-radius: 6px;
+    background-color: black;
+    color: white;
+    transition-duration: 0.7s;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
